@@ -1,0 +1,15 @@
+{
+  "name": "test-driven-nodejs-apps-js6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "dependencies": {
+    "chai": "^4.1.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
+    "webpack": "^3.5.3"
+  }
+}
