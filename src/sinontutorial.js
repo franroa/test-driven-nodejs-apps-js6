@@ -15,7 +15,7 @@ let SinonTutorial = function () {
 
     this.getTodos = function (listId, callback) {
         new jQuery().ajax(
-            '/todo/' + listId + '/items',
+            'franciscoroa.com',
             {
                 success: function (data) {
                     callback(null, data);
