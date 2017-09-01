@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack --progress && webpack-dev-server -d --hot --config webpack.config.js --watch --progress",
-    "test": "nyc mocha"
+    "test": "nyc --reporter=html --reporter=text  mocha"
   },
   "nyc": {
     "require": [
